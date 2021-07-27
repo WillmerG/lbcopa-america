@@ -1,0 +1,6 @@
+Comandos masa utilizados:
+  ✔ para crear proyecto "lb4" @done(23-07-2021 17:15)
+  ✔ para crear controllers "lb4 controller" @done(23-07-2021 17:17)
+  ✔ para conectar con la base de datos "lb4 datasource" @done(23-07-2021 19:19)
+  ✔ para crear el modelo de la base de datos(las tablas) "lb4 model" @done(23-07-2021 19:28)
+  ✔ para crear repositorios "lb4 repository" @done(23-07-2021 19:43)
