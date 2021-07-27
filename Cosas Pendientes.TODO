@@ -1,3 +1,22 @@
+Basico:
+  ✔ Realizar un diagrama o Modelo Entidad Relación (MER) normalizado el cual describa las posibles tablas y atributos que usted considere puedan surgir de la situación descrita en la lectura. @done(27-07-2021 11:48)
+
+  ✔ Realizar la base de datos relacional descrita en el modelo realizado por usted . @done(27-07-2021 11:48)
+
+  ✔ Realice un proyecto en el cual cree los grupos de Endpoints correspondientes para la carga manual y lectura de datos de cada tabla individual. @done(27-07-2021 11:48)
+
+Medio:
+  ☐ Realice un Endpoint de tipo GET en el cual devuelva un json con los siguiente objetos datos de la copa(fecha, sedes, edición, organizador, etc.), grupos y las selecciones que componen cada grupo.
+
+  ☐ Realice un Endpoint de tipo GET en el cual por medio del nombre del país pueda obtener el apellido, número y posición de cada jugador y su director técnico.
+
+  ☐ Realice un Endpoint de tipo PUT o PATCH en el cual pueda cambiar el número de camiseta y posición de un jugador por medio del id.
+
+Alto:
+  ☐ Realice un método POST donde pueda cargarse un partido cualquiera, en el que puedan guardarse todos los datos de la tabla y tablas asociadas a un partido.
+
+  ☐ Realice un Endpoint de tipo GET en el cual pueda obtener por medio del número de partido un json con la siguiente estructura: fecha, hora del partido, ciudad, estadio sede del compromiso, fase a la que corresponde el partido, equipo local, equipo visitante, arbitro principal.
+
 Comandos masa utilizados:
   ✔ para crear proyecto "lb4" @done(23-07-2021 17:15)
   ✔ para crear controllers "lb4 controller" @done(23-07-2021 17:17)

@@ -33,7 +33,7 @@ CREATE TABLE IF NOT EXISTS DetGrupos(
 CREATE TABLE IF NOT EXISTS sedes(
   id_sedes int(11) NOT NULL AUTO_INCREMENT,
   id_pais int(11),
-  tx_ligar VARCHAR(100),
+  tx_lugar VARCHAR(100),
   tx_nombre VARCHAR(100),
   nu_capacidad int(11),
   PRIMARY KEY (id_sedes),
