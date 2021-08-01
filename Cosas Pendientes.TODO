@@ -23,3 +23,26 @@ Comandos masa utilizados:
   ✔ para conectar con la base de datos "lb4 datasource" @done(23-07-2021 19:19)
   ✔ para crear el modelo de la base de datos(las tablas) "lb4 model" @done(23-07-2021 19:28)
   ✔ para crear repositorios "lb4 repository" @done(23-07-2021 19:43)
+  ✔ para crear relaciones "lb4 relation" @done(28-07-2021 08:19)
+      hasMany     <--- de 1 a M
+        origen tablaUno
+        desino tablaMuchos
+      belongsTo   <--- de M a 1
+      origen tablaMuchos
+      desino tablaUno
+
+      Ejemplo:
+        https://loopback.io/doc/en/lb4/todo-list-tutorial-sqldb.html
+        @model({
+          settings: {
+            foreignKeys: {
+              fk_todoListImage_todoListId: {
+                name: 'fk_todoListImage_todoListId',
+                entity: 'TodoList',
+                entityKey: 'id',
+                foreignKey: 'todoListId',
+              },
+            },
+          },
+        })
+
